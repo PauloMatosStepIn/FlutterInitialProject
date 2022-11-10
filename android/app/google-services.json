@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "180464897075",
+    "project_id": "time-tracker-flutter-cou-4f27c",
+    "storage_bucket": "time-tracker-flutter-cou-4f27c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:180464897075:android:2406114d0602f8476b2746",
+        "android_client_info": {
+          "package_name": "stepinportugal.com.time_tracker_flutter_course"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "180464897075-ls4s9vf6hho4p1kmrg0qhfn4jg7firo4.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "stepinportugal.com.time_tracker_flutter_course",
+            "certificate_hash": "e09c52a11f8e0573bca5bd29c5d940ab2b542ecf"
+          }
+        },
+        {
+          "client_id": "180464897075-3b7ng8lf7l5n1u86j8cbieamoic3lkr7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCQlN4ABRYIoHx3z3tqI4XxFB6hvdR_cJY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "180464897075-3b7ng8lf7l5n1u86j8cbieamoic3lkr7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,12 +1,25 @@
-import 'dart:ffi';
-
+import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
-import 'package:time_tracker_flutter_course/app/common_widgets/custom_elevated_button.dart';
 import 'package:time_tracker_flutter_course/app/sign_in/sign_in_button.dart';
 import 'package:time_tracker_flutter_course/app/sign_in/social_sign_in_button.dart';
 
 class SignInPage extends StatelessWidget {
-  const SignInPage({Key? key}) : super(key: key);
+
+  const SignInPage({Key? key, required this.onSignIn}) : super(key: key);
+
+  final void Function(User) onSignIn;
+
+
+  Future<void> _signInAnonymously() async {
+    try{
+      final userCredentials = await FirebaseAuth.instance.signInAnonymously();
+      // print('${userCredentials.user?.uid}');
+      // onSignIn(userCredentials.user);
+    }catch(e){
+      print(e.toString());
+    }
+
+  }
 
   @override
   Widget build(BuildContext context) {
@@ -34,11 +47,41 @@ class SignInPage extends StatelessWidget {
                 fontSize: 32,
                 fontWeight: FontWeight.w600,
               )),
+          SizedBox(height: 16),
+          SocialSignInButton(
+            color: Colors.white,
+            assetName: 'images/google-logo.png',
+            text: 'Sign In with Goolgle',
+            textColor: Colors.black87,
+            onPressed: () {},
+          ),
+          SizedBox(height: 8),
+          SocialSignInButton(
+            color: Color(0xFF334D92),
+            assetName: 'images/facebook-logo.png',
+            text: 'Sign In with Facebook',
+            textColor: Colors.white,
+            onPressed: () {},
+          ),
+          SizedBox(height: 8),
+          SignInButton(
+              text: "Sign In with Email",
+              textColor: Colors.white,
+              color: Color(0xFF00796B),
+              onPressed: () {}),
+          Text('or',
+              style: TextStyle(fontSize: 18, color: Colors.black87),
+              textAlign: TextAlign.center),
+          SignInButton(
+              text: "Go Anonymous",
+              textColor: Colors.black,
+              color: Color(0xFFDCE775),
+              onPressed: _signInAnonymously),
+
           // ElevatedButton(
           //   onPressed: null,
           //   child: Text('Disabled'),
           // ),
-          SizedBox(height: 16),
           // ElevatedButton (
           //   child: Text('Sign In with Google',
           //   style: TextStyle(
@@ -69,66 +112,49 @@ class SignInPage extends StatelessWidget {
           //   backgroundColor: Colors.white
           // ),
           // SizedBox(height: 8),
-          SignInButton(
-              text: "Sign In with Google",
-              color: Colors.white,
-              textColor: Colors.black87,
-              onPressed: () {}),
-          SizedBox(height: 8),
-          SignInButton(
-              text: "Sign In with Facebook",
-              color: Color(0xFF334D92),
-              textColor: Colors.white,
-              onPressed: () {}),
-          SizedBox(height: 8),
-          SignInButton(
-              text: "Sign In with Email",
-              textColor: Colors.white,
-              color: Color(0xFF00796B),
-              onPressed: () {}),
-          Text('or',
-              style: TextStyle(fontSize: 18, color: Colors.black87),
-              textAlign: TextAlign.center),
-          SignInButton(
-              text: "Go Anonymous",
-              textColor: Colors.black,
-              color: Color(0xFFDCE775),
-              onPressed: () {}),
-          SizedBox(height: 8),
-          CustomElevatedButton(
-              child: Row(
-                mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                children: <Widget>[
-                  Image.asset('images/google-logo.png'),
-                  Text('Sign In with Goolgle',
-                      style: TextStyle(fontSize: 14, color: Colors.black87),
-                      textAlign: TextAlign.center),
-                  Opacity(
-                      opacity: 0.0,
-                      child: Image.asset('images/google-logo.png')),
-                ],
-              ),
-              onPressed: () {},
-              backgroundColor: Colors.white),
-          // Image.asset('images/google-logo.png'),
-          SizedBox(height: 8),
-          SocialSignInButton(
-              color: Colors.white,
-              assetName: 'images/google-logo.png',
-              text: 'Sign In with Goolgle',
-              textColor: Colors.black87,
-              onPressed: (){},
-              ),
-          SizedBox(height: 8),
-          SocialSignInButton(
-            color: Color(0xFF334D92),
-            assetName: 'images/facebook-logo.png',
-            text: 'Sign In with Facebook',
-            textColor: Colors.white,
-            onPressed: (){},
-          ),
+          // SignInButton(
+          //     text: "Sign In with Google",
+          //     color: Colors.white,
+          //     textColor: Colors.black87,
+          //     onPressed: () {}),
+          // SizedBox(height: 8),
+          // SignInButton(
+          //     text: "Sign In with Facebook",
+          //     color: Color(0xFF334D92),
+          //     textColor: Colors.white,
+          //     onPressed: () {}),
+          // SizedBox(height: 8),
+          // SignInButton(
+          //     text: "Sign In with Email",
+          //     textColor: Colors.white,
+          //     color: Color(0xFF00796B),
+          //     onPressed: () {}),
+          // Text('or',
+          //     style: TextStyle(fontSize: 18, color: Colors.black87),
+          //     textAlign: TextAlign.center),
+          // SignInButton(
+          //     text: "Go Anonymous",
+          //     textColor: Colors.black,
+          //     color: Color(0xFFDCE775),
+          //     onPressed: () {}),
+          // SizedBox(height: 8),
+          // CustomElevatedButton(
+          //     child: Row(
+          //       mainAxisAlignment: MainAxisAlignment.spaceBetween,
+          //       children: <Widget>[
+          //         Image.asset('images/google-logo.png'),
+          //         Text('Sign In with Goolgle',
+          //             style: TextStyle(fontSize: 14, color: Colors.black87),
+          //             textAlign: TextAlign.center),
+          //         Opacity(
+          //             opacity: 0.0,
+          //             child: Image.asset('images/google-logo.png')),
+          //       ],
+          //     ),
+          //     onPressed: () {},
+          //     backgroundColor: Colors.white),
+          // // Image.asset('images/google-logo.png'),
         ],
-
       ),
     );
   }

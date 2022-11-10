@@ -9,19 +9,19 @@ class SocialSignInButton extends CustomElevatedButton {
     required Color textColor,
     required VoidCallback onPressed,
   }) :
-        assert(assetsName != null),
+        assert(assetName != null),
         assert(text != null),
         super (
       child: Row(
         mainAxisAlignment: MainAxisAlignment.spaceBetween,
         children: <Widget>[
-          Image.asset(assetsName),
+          Image.asset(assetName),
           Text(text,
               style: TextStyle(fontSize: 14, color: textColor),
               textAlign: TextAlign.center),
           Opacity(
               opacity: 0.0,
-              child: Image.asset(assetsName)),
+              child: Image.asset(assetName)),
         ],
       ),
       backgroundColor: color,
