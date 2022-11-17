@@ -17,19 +17,19 @@ samples, guidance on mobile development, and a full API reference.
 
 ## Resources & Recipes
 
-- [Official Flutter Website:](https://flutter.dev/)
-- [Official Flutter Docs:](https://flutter.dev/docs)
-- [macOS Installation Guide:](https://flutter.dev/docs/get-started/install/macos)
-- [Windows Installation Guide:](https://flutter.dev/docs/get-started/install/windows)
-- [Linux Installation Guide:](https://flutter.dev/docs/get-started/install/linux)
-- [Android Studio Download:](https://developer.android.com/studio)
-- [Visual Studio Code Download:](https://code.visualstudio.com/)
+- [Official Flutter Website](https://flutter.dev/)
+- [Official Flutter Docs](https://flutter.dev/docs)
+- [macOS Installation Guide](https://flutter.dev/docs/get-started/install/macos)
+- [Windows Installation Guide](https://flutter.dev/docs/get-started/install/windows)
+- [Linux Installation Guide](https://flutter.dev/docs/get-started/install/linux)
+- [Android Studio Download](https://developer.android.com/studio)
+- [Visual Studio Code Download](https://code.visualstudio.com/)
 
 - [Migrating a Flutter & Firebase app to Null Safety](https://codewithandrea.com/articles/migrating-flutter-firebase-app-null-safety/)
 
-- [Introduction to Widgets:](https://flutter.dev/docs/development/ui/widgets-intro)
-- [MaterialApp class:](https://docs.flutter.io/flutter/material/MaterialApp-class.html)
-- [Scaffold class:](https://docs.flutter.io/flutter/material/Scaffold-class.html)
+- [Introduction to Widgets](https://flutter.dev/docs/development/ui/widgets-intro)
+- [MaterialApp class](https://api.flutter.dev/flutter/material/MaterialApp-class.html)
+- [Scaffold class](https://api.flutter.dev/flutter/material/Scaffold-class.html)
 
 - [Flutter — Visual Studio Code Shortcuts for Fast and Efficient Development](https://medium.com/flutter-community/flutter-visual-studio-code-shortcuts-for-fast-and-efficient-development-7235bc6c3b7d)
 
