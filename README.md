@@ -40,31 +40,29 @@ samples, guidance on mobile development, and a full API reference.
 - [AppBar class](https://api.flutter-io.cn/flutter/material/AppBar-class.html)
 
 Function named with underscore => private
-        
+
 - [ANDROID STUDIO Keyboard shortcuts](https://developer.android.com/studio/intro/keyboard-shortcuts)
 
-- [Bhavik Makwana - Speaker for flutter***](https://medium.com/@ibhavikmakwana)
+- [Bhavik Makwana - Speaker for flutter\*\*\*](https://medium.com/@ibhavikmakwana)
 
 - [Layouts in Flutter](https://docs.flutter.dev/development/ui/layout)
 
 - [Widget Index](https://docs.flutter.dev/reference/widgets)
 
 - [FireBase Console](https://console.firebase.google.com/)
-  
 - ['keytool' is not recognized as an internal or external command: How to fix this on Windows and macOS](https://codewithandrea.com/articles/keytool-command-not-found-how-to-fix-windows-macos/)
 
 - [FlutterFire - The official Firebase plugins for Flutter](https://firebase.google.com/docs/flutter/setup?platform=ios#available-plugins)
-  	
 - [The official package repository for Dart and Flutter apps supported by Google](https://pub.dev/)
 
 - [Pub dependencies documentation](https://dart.dev/tools/pub/dependencies)
-      
-firebase_core
-firebase_auth
-google_sign_in
-flutter_login_facebook
-provider
-pubspec.yaml
+
+firebase_core\
+firebase_auth\
+google_sign_in\
+flutter_login_facebook\
+provider\
+pubspec.yaml\
 flutter pub get
 
 - [Add Firebase to your Flutter app](https://firebase.google.com/docs/flutter/setup?platform=android)
@@ -81,10 +79,10 @@ flutter pub get
 
 - [StreamBuilder class](https://api.flutter.dev/flutter/widgets/StreamBuilder-class.html)
 
-- [Checklist: Google Sign-In Flutter setup on Android (restricted content:  Course: flutter-firebase-build-a-complete-app-for-ios-android )](https://www.udemy.com/course/flutter-firebase-build-a-complete-app-for-ios-android/learn/lecture/14407460#search)
+- [Checklist: Google Sign-In Flutter setup on Android (restricted content: Course: flutter-firebase-build-a-complete-app-for-ios-android )](https://www.udemy.com/course/flutter-firebase-build-a-complete-app-for-ios-android/learn/lecture/14407460#search)
 
 - [Facebook Login](https://developers.facebook.com/docs/facebook-login/)
-- 
+
 - [Facebook Login for Android - Quickstart](https://developers.facebook.com/docs/facebook-login/android)
 
 On the Dashboard, navigate to Settings > Advanced > Security > Client token.
@@ -95,7 +93,7 @@ On the Dashboard, navigate to Settings > Advanced > Security > Client token.
 - [Google Sign-In on Android](https://firebase.google.com/docs/auth/android/google-signin)
 - [Permissions with Facebook Login](https://developers.facebook.com/docs/facebook-login/permissions/overview)
 
-A non-null value must be returned since the return type 'FutureOr<List<Contact>>
+A non-null value must be returned since the return type 'FutureOr<List<Contact>>\
 Run --> Edit Configurations --> Add Additional Run args --> --no-sound-null-safety
 
 - [Source code Course: "Flutter & Firebase: Build a Complete App for iOS & Android" on Udemy](https://github.com/bizz84/time_tracker_flutter_course)
@@ -128,3 +126,4 @@ Run --> Edit Configurations --> Add Additional Run args --> --no-sound-null-safe
 
 - [getElementForInheritedWidgetOfExactType method](https://api.flutter.dev/flutter/widgets/BuildContext/getElementForInheritedWidgetOfExactType.html)
 
+- [Simple app state management : Consumer](https://docs.flutter.dev/development/data-and-backend/state-mgmt/simple#consumer)
