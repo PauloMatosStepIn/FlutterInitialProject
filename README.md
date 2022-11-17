@@ -39,8 +39,92 @@ samples, guidance on mobile development, and a full API reference.
 
 - [AppBar class](https://api.flutter-io.cn/flutter/material/AppBar-class.html)
 
-- Function named with underscore => private
-
+Function named with underscore => private
+        
 - [ANDROID STUDIO Keyboard shortcuts](https://developer.android.com/studio/intro/keyboard-shortcuts)
 
+- [Bhavik Makwana - Speaker for flutter***](https://medium.com/@ibhavikmakwana)
+
+- [Layouts in Flutter](https://docs.flutter.dev/development/ui/layout)
+
+- [Widget Index](https://docs.flutter.dev/reference/widgets)
+
+- [FireBase Console](https://console.firebase.google.com/)
+  
+- ['keytool' is not recognized as an internal or external command: How to fix this on Windows and macOS](https://codewithandrea.com/articles/keytool-command-not-found-how-to-fix-windows-macos/)
+
+- [FlutterFire - The official Firebase plugins for Flutter](https://firebase.google.com/docs/flutter/setup?platform=ios#available-plugins)
+  	
+- [The official package repository for Dart and Flutter apps supported by Google](https://pub.dev/)
+
+- [Pub dependencies documentation](https://dart.dev/tools/pub/dependencies)
+      
+firebase_core
+firebase_auth
+google_sign_in
+flutter_login_facebook
+provider
+pubspec.yaml
+flutter pub get
+
+- [Add Firebase to your Flutter app](https://firebase.google.com/docs/flutter/setup?platform=android)
+
+- [Android documentation - Authenticating Your Client](https://developers.google.com/android/guides/client-auth)
+
+- [Asynchronous programming: futures, async, await](https://dart.dev/codelabs/async-await)
+
+- [Dart Exceptions](https://dart.dev/guides/language/language-tour#exceptions)
+
+- [Dart PAD](https://dartpad.dev/?)
+
+- [Asynchronous Programming - Streams](https://www.dartlang.org/tutorials/language/streams)
+
+- [StreamBuilder class](https://api.flutter.dev/flutter/widgets/StreamBuilder-class.html)
+
+- [Checklist: Google Sign-In Flutter setup on Android (restricted content:  Course: flutter-firebase-build-a-complete-app-for-ios-android )](https://www.udemy.com/course/flutter-firebase-build-a-complete-app-for-ios-android/learn/lecture/14407460#search)
+
+- [Facebook Login](https://developers.facebook.com/docs/facebook-login/)
+- 
+- [Facebook Login for Android - Quickstart](https://developers.facebook.com/docs/facebook-login/android)
+
+On the Dashboard, navigate to Settings > Advanced > Security > Client token.
+
+- [Multidex support prior to Android 5.0](https://developer.android.com/studio/build/multidex#kts)
+
+- [Google Sign-In on iOS](https://firebase.google.com/docs/auth/ios/google-signin)
+- [Google Sign-In on Android](https://firebase.google.com/docs/auth/android/google-signin)
+- [Permissions with Facebook Login](https://developers.facebook.com/docs/facebook-login/permissions/overview)
+
+A non-null value must be returned since the return type 'FutureOr<List<Contact>>
+Run --> Edit Configurations --> Add Additional Run args --> --no-sound-null-safety
+
+- [Source code Course: "Flutter & Firebase: Build a Complete App for iOS & Android" on Udemy](https://github.com/bizz84/time_tracker_flutter_course)
+
+- [Navigator class](https://api.flutter.dev/flutter/widgets/Navigator-class.html)
+
+- [TextField class](https://api.flutter.dev/flutter/material/TextField-class.html)
+
+- [TextEditingController class](https://api.flutter.dev/flutter/widgets/TextEditingController-class.html)
+
+- [FocusNode class](https://api.flutter.dev/flutter/widgets/FocusNode-class.html)
+
+- [SingleChildScrollView class](https://api.flutter.dev/flutter/widgets/SingleChildScrollView-class.html)
+
+- [DART.DEV Adding features to a class: mixins](https://www.dartlang.org/guides/language/language-tour#adding-features-to-a-class-mixins)
+
+- [CODEWITHANDREA - Dart Null Safety: The Ultimate Guide to Non-Nullable Types](https://codewithandrea.com/videos/dart-null-safety-ultimate-guide-non-nullable-types/)
+
+- [Cupertino (iOS-style) widgets](https://docs.flutter.dev/development/ui/widgets/cupertino)
+
+- [Material Components widgets](https://docs.flutter.dev/development/ui/widgets/material)
+
+- [CodeWithAndrea - YouTube Channel - Flutter Tutorials](https://www.youtube.com/c/CodeWithAndrea)
+
+- [InheritedWidget class](https://api.flutter.dev/flutter/widgets/InheritedWidget-class.html)
+
+- [provider package](https://pub.dartlang.org/packages/provider)
+
+- [dependOnInheritedWidgetOfExactType method](https://api.flutter.dev/flutter/widgets/BuildContext/dependOnInheritedWidgetOfExactType.html)
+
+- [getElementForInheritedWidgetOfExactType method](https://api.flutter.dev/flutter/widgets/BuildContext/getElementForInheritedWidgetOfExactType.html)
 
